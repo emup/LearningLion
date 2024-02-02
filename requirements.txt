@@ -11,3 +11,5 @@ uvicorn>=0.22.0
 llama_cpp_python==0.2.11
 docx2txt==0.8
 streamlit
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+transformers>=4.37.0 # not directly required, pinned by Snyk to avoid a vulnerability
