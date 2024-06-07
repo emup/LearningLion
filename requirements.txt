@@ -11,3 +11,5 @@ uvicorn>=0.22.0
 llama_cpp_python==0.2.11
 docx2txt==0.8
 streamlit
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
